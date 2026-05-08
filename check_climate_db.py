@@ -13,7 +13,7 @@ def get_connection():
 # Example usage and verification
 if __name__ == "__main__":
     if empty_db:
-        print("Database is empty. Please create the database before using this class.")
+        print("Database is empty. Please create the database.")
         exit()
     conn = get_connection()
     
